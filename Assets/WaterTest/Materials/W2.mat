@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: W2
+  m_Shader: {fileID: 4800000, guid: 3e8dca26a5f9f433384584eca4f3cf4b, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: c2ef94ff9d11915d1100a04b44295342, type: 3}
+          m_Scale: {x: 10, y: 15}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b78f6f88331a44e42bf4c75514d90825, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BottomTex
+        second:
+          m_Texture: {fileID: 2800000, guid: c2ef94ff9d11915d1100a04b44295342, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 98c330f39d11745ad0004adb8d76c639, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FoamTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0c2ab2a1c4018714989a955420ef3da3, type: 3}
+          m_Scale: {x: 2, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpeedMask
+        second:
+          m_Texture: {fileID: 2800000, guid: 8ef5b3073dc591f498ce8c0e935e68ed, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Tex0
+        second:
+          m_Texture: {fileID: 2800000, guid: 3e3810b72e3255b4ea0ad31eeb9bed52, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Reflection
+        second: .178571433
+      data:
+        first:
+          name: _Shininess
+        second: 1
+      data:
+        first:
+          name: _Exposure
+        second: .689999998
+      data:
+        first:
+          name: _Distortion
+        second: .5
+      data:
+        first:
+          name: _PhaseOffset
+        second: .732142866
+      data:
+        first:
+          name: _Speed
+        second: 3.03571439
+      data:
+        first:
+          name: _Depth
+        second: .0892857164
+      data:
+        first:
+          name: _Smoothing
+        second: 1
+      data:
+        first:
+          name: _XDrift
+        second: .785714328
+      data:
+        first:
+          name: _ZDrift
+        second: 1.42857146
+      data:
+        first:
+          name: _Scale
+        second: 7.34821367
+      data:
+        first:
+          name: _Glos
+        second: .125
+      data:
+        first:
+          name: _WaterSpeed
+        second: -1.77999997
+      data:
+        first:
+          name: _FakeDepth
+        second: -.150000006
+      data:
+        first:
+          name: _WaveFreq
+        second: 33
+      data:
+        first:
+          name: _WaveAmp
+        second: 1
+      data:
+        first:
+          name: _Blend
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _WaveSpeed
+        second: {r: -2, g: 1, b: -.5, a: -2}
+      data:
+        first:
+          name: WaveSpeed
+        second: {r: 19, g: 9, b: -16, a: -7}
+      data:
+        first:
+          name: _StonePos
+        second: {r: 36.8795891, g: 36.8795891, b: 36.8795891, a: 1}
+      data:
+        first:
+          name: _BallPos
+        second: {r: 881.695129, g: 18.6474895, b: 1898.56604, a: 1}
+      data:
+        first:
+          name: _xBallPos
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _W
+        second: {r: 0, g: -1, b: 0, a: 0}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6
