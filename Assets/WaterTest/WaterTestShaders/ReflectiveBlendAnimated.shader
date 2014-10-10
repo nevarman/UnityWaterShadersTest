@@ -66,6 +66,8 @@
 		
 		void vert( inout appdata_full v, out Input o )
 		{
+			// Find here from this tutorial : https://www.youtube.com/watch?v=1G37-Yav2ZM
+		
 			// Note that, to start off, all work is in object (local) space.
 			// We will eventually move normals to world space to handle arbitrary object orientation.
 			// There is no real need for tangent space in this case.
